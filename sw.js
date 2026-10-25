@@ -1,6 +1,6 @@
 // Generated at build time by vite.config.ts.
-const CACHE = 'habit-system-dbdab8b32eba';
-const FILES = ["./assets/index-Cv1AsSxs.js","./assets/index-uWVFwbF5.css","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = 'habit-system-2a6c8c992b7a';
+const FILES = ["./assets/index-DgzQBZva.js","./assets/index-p0U2_E8r.css","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
