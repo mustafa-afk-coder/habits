@@ -1,6 +1,6 @@
 // Generated at build time by vite.config.ts.
-const CACHE = 'habit-system-24d125e82f70';
-const FILES = ["./assets/ibm-plex-sans-arabic-arabic-400-normal-Bwel1Edd.woff2","./assets/ibm-plex-sans-arabic-arabic-600-normal-C_8-il80.woff2","./assets/ibm-plex-sans-arabic-arabic-700-normal-h89dPt8c.woff2","./assets/ibm-plex-sans-arabic-latin-400-normal-WmMPB2Yj.woff2","./assets/ibm-plex-sans-arabic-latin-600-normal-D2IuUTjp.woff2","./assets/ibm-plex-sans-arabic-latin-700-normal-B1l2chsb.woff2","./assets/index-B9461Xpo.js","./assets/index-BU80_W0F.css","./font-license.txt","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
+const CACHE = 'habit-system-7b748678892a';
+const FILES = ["./assets/ibm-plex-sans-arabic-arabic-400-normal-Bwel1Edd.woff2","./assets/ibm-plex-sans-arabic-arabic-600-normal-C_8-il80.woff2","./assets/ibm-plex-sans-arabic-arabic-700-normal-h89dPt8c.woff2","./assets/ibm-plex-sans-arabic-latin-400-normal-WmMPB2Yj.woff2","./assets/ibm-plex-sans-arabic-latin-600-normal-D2IuUTjp.woff2","./assets/ibm-plex-sans-arabic-latin-700-normal-B1l2chsb.woff2","./assets/index-5HITnoSL.js","./assets/index-Be0RI8AA.css","./font-license.txt","./icon-192.png","./icon-512.png","./icon-maskable-512.png","./icon.svg","./index.html","./manifest.webmanifest"];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(caches.open(CACHE).then((cache) => cache.addAll(FILES)).then(() => self.skipWaiting()));
